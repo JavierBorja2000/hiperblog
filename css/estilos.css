@@ -1,4 +1,28 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    color: pink;
+    color: rgba(0, 0, 0, .8);
+}
+
+header {
+    background-color: #727272aa;
+    display:  flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding: 7px;
+}
+
+.menu__item {
+    display: inline-block;
+    list-style: none;
+}
+
+.menu__item a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: rgba(0, 0, 0, .8) 
+}
+
+.menu__item a:hover {
+    color:rgba(0, 0, 0, .5)
 }
