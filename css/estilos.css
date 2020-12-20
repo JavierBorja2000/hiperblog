@@ -26,3 +26,11 @@ header {
 .menu__item a:hover {
     color:rgba(0, 0, 0, .5)
 }
+
+
+.cabecera {
+    background-color: aqua;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
