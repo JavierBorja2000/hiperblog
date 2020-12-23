@@ -1,11 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Courier New', Courier, monospace;
     color: rgba(0, 0, 0, .8); 
     text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 100vh;
 }
 
 header {
-    background-color: #727272aa;
+    background-color: black;
     display:  flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -21,20 +30,23 @@ header {
     text-decoration: none;
     display: block;
     padding: 10px;
-    color: rgba(0, 0, 0, .8) 
+    color: #aaa 
 }
 
 .menu__item a:hover {
-    color:rgba(0, 0, 0, .5)
+    color:rgba(236, 233, 233, 0.5)
 }
-
+/*MAIN*/
+main{
+    flex-grow: 1;
+}
 .parrafo {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
 }
 
 .cabecera {
-    background-color: aqua;
+    background-color: #aaaaaa;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
